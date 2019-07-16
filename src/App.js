@@ -26,8 +26,8 @@ function App() {
         <BottomRow />
       </section>
       <section className="buttons">
-        <HomeButtons homeScore={homeScore} />
-        <AwayButtons awayScore={awayScore} />
+        <HomeButtons setScore1={setScore1} homeScore={homeScore} />
+        <AwayButtons setScore2={setScore2} awayScore={awayScore} />
      
       </section>
     </div>
