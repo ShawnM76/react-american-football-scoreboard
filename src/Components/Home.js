@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Home = () => {
-    return <h1>Hola!</h1>
+const Home = (useState) => {
+    
+    return (
+        <div className="home">
+            <h2 className="home__name">Lions</h2>
+            <div className="home__score">{useState.homeScore}</div>
+        </div>
+    );
 };
 
 export default Home;
